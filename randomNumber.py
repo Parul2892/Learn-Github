@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# team: Parul jain, Rodrigo Catalan, Florian, Christian 
+# team: Parul jain, Rodrigo Catalan, Florian
 
 import random
 import time
