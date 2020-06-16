@@ -50,7 +50,9 @@ my_rolls=[]
 for i in range(6):
     roll = get_random_number(1, 6)
     my_rolls.append(roll)
-    print(rolls)
+    print(my_rolls)
     sys.stdout.flush()
-plt.bar(range(6),my_rolls)
+
+plt.barh(range(6),my_rolls)
+
 plt.show()
