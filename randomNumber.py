@@ -52,5 +52,5 @@ for i in range(6):
     rolls.append(roll)
     print(rolls)
     sys.stdout.flush()
-plt.bar(range(6),rolls)
+plt.barh(range(6),rolls)
 plt.show()
