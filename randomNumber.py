@@ -40,7 +40,7 @@ def get_color_by_dice_naive(spots):
 
 
 if __name__ == "__main__":
-    outputfilename = "randomNumber"
+    outputfilename = "ours_randomNumber"
     roll = get_random_number(1, 6)
     color = get_color_by_dice(roll)
     write_log_file(outputfilename, color)
