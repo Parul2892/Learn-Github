@@ -6,6 +6,7 @@
 import random
 import time
 import sys
+import matplotlib.pyplot as plt
 
 def get_random_number(start, end):
     num = random.randint(start, end)
@@ -51,5 +52,5 @@ for i in range(6):
     rolls.append(roll)
     print(rolls)
     sys.stdout.flush()
-    plt.bar(range(6),rolls)
-    plt.show()
+plt.bar(range(6),rolls)
+plt.show()
