@@ -53,6 +53,3 @@ for i in range(6):
     print(my_rolls)
     sys.stdout.flush()
 
-plt.barh(range(6),my_rolls)
-
-plt.show()
