@@ -6,6 +6,7 @@
 import random
 import time
 import sys
+import numpy as np
 
 
 def get_random_number(start, end):
